@@ -1,0 +1,2 @@
+import happy
+happy.welcome()

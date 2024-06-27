@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-from main import fib
+from main import frpt
 
 #
 # Complete the 'ashtonString' function below.
@@ -21,7 +21,7 @@ def ashtonString(s, k):
     # Write your code here
 
     if __name__ == '__main__':
-        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+        fib = open(os.environ['OUTPUT_PATH'], 'w')
 
         t = int(input().strip())
 
@@ -32,6 +32,6 @@ def ashtonString(s, k):
 
             res = ashtonString(s, k)
 
-            fptr.write(str(res) + '\n')
+            fib.write(str(res) + '\n')
 
-        fptr.close()
+        fib.close()
