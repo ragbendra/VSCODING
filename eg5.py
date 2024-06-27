@@ -1,2 +1,0 @@
-import happy
-happy.welcome()
