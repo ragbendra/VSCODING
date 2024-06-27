@@ -122,3 +122,5 @@ for i in range(0, len(questions)):
         break
 
 print(f"Your take home money is {money}")
+
+
